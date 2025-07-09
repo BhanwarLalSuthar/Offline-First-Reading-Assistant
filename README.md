@@ -9,7 +9,7 @@ A **progressive web application** (PWA) designed for **students and professional
 ## 📸 Preview
 
 ### Universal Document Viewer
-![UI Preview](src/assests/image.png)
+![UI Preview](src/assets/image.png)
 
 
 
