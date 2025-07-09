@@ -32,7 +32,10 @@ export default function Viewer() {
       const height = 600;
       return (
         <div style={{ position: 'relative', width, height, maxWidth: '100%', margin: '0 auto' }}>
-          <LazyLoadPage src={URL.createObjectURL(file)} alt="Uploaded" type="image" style={{ maxHeight: '100%', width: '100%' }} />
+          <LazyLoadPage src={URL.createObjectURL(file)} alt="Uploaded" type="image" style={{ width: '100%',
+          height: '100%',
+          objectFit: 'contain',
+          display: 'block',}} />
           <AnnotationLayer width={width} height={height} storageKey={`annotation-${file.name}`} imageSrc={URL.createObjectURL(file)} />
         </div>
       );
