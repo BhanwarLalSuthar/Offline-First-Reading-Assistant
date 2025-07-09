@@ -76,15 +76,7 @@ npm install
 # Run the development server
 npm run dev
 ```
-```Bash
-🧠 Key APIs in Action
-API	Role
-Canvas API	Annotation/drawing features
-navigator.connection	Detects slow/fast network
-BackgroundSync	Schedules sync in idle time
-IntersectionObserver	Loads documents lazily
-localStorage	Saves annotations offline
-```
+
 
 ### 📌 Tips:
 
